@@ -20,4 +20,6 @@ Maven - https://maven.apache.org/download.cgi
 
 9. Copy the pom.xml file from this repo and update some name inside the file (instruction is given inside the file).
 
-10. ENJOY!!Run with (mvn clean javafx:run) or from Maven section on explorer tab
+10. make java and resource on main folder in same structure for direct import of fxml
+
+11. ENJOY!!Run with (mvn clean javafx:run) or from Maven section on explorer tab
