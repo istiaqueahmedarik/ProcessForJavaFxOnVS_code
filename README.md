@@ -1,12 +1,29 @@
+PreReq:
+1. download and install "jdk-20" or before
+2. update JAVA_HOME with the address of jdk-20 in path variable like this "C://Program Files//Java//jdk-20"
+
+
+
 # ProcessForJavaFxOnVS_code
 
-1. Install JAVA JDK, JAVA FX sdk, mavin
+1. Install  JAVA FX sdk, mavin
 Java FX - https://gluonhq.com/products/javafx/
 Maven - https://maven.apache.org/download.cgi
 
 2. Update Path variable of mvn from maven docs.
 
-3. update JAVA_HOME env. variable 
+3. update settings.json in your computer if set before with correct javafx address and jdk address. If not set it in this way:
+   ***json
+    "javafx.libPath": "F:/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/lib",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-20",
+      "path": "C://Program Files//Java//jdk-20",
+      "default": true
+    }
+  ],
+***
+
 
 4. Install essential java and maven java fx extension in vs code(Maven for Java, Extension Pack for Java, Project Manager for Java) 
 
